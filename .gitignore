@@ -1,0 +1,21 @@
+Library/
+Temp/
+Obj/
+Build/
+Logs/
+UserSettings/
+MemoryCaptures/
+Recoderings/
+
+#OS / IDE
+.DS_Store
+Tumbs.db
+.vs/
+*csproj
+*.sln
+*.user
+*.pidb
+*unityproj
+
+.idea/
+*sln.iml
