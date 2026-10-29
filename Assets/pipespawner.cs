@@ -38,4 +38,5 @@ public class pipespawner : MonoBehaviour
 
         Instantiate(pipe, new Vector3(transform.position.x, Random.Range(lowestPoint,heighestPoint),0), transform.rotation);
     }
+    
 }

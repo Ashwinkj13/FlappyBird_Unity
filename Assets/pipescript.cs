@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class pipescript : MonoBehaviour
 {
+    public static pipescript instance;
     public int moveSpeed = 5;
     //private int incriment = 0;
     public float deadZone = -45;
     public birdscript birdLive;
 
     //public LogicScript scoreee;
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
+        instance = this;
     }
 
     // Update is called once per frame
